@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+iniciamos el preoyecto con los siguientes comandos:
+npx create-react-app  react-app-sensores 
+
+instalar librerías:
+npm install express serialport 
+cors socket.io react-router-dom socket.io-client
+
+Entrar a la carpeta con:
+cd ./react-app-sensores/
+
+Para abrir la app
+npm start
+
+Para el servidor:
+node server.js
+
 
 ## Available Scripts
 
