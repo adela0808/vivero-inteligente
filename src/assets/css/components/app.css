@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+  }
+  
+  .flex--center {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex--column {
+    flex-direction: column;
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family-title-page);
+    font-size: var(--font-size-title-page);
+    background-color: var(--contrast-light-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    height: 3rem;
+    margin-top: 8.25rem;
+    margin-bottom: 1rem;    
+    padding: 2rem;
+  }
+  .buton{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-title-page);
+    font-size: var(--font-size-title-page);
+    background-color: #add1f8;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    height: 2.75rem;
+    padding: 1rem;
+    margin: 1rem;
+
+  }
+  
