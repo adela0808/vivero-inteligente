@@ -19,6 +19,8 @@ npm start
 
 Para el servidor:
 node server.js
+
+
 ##IMPORTANTE para recibir los datos de un puerto determinado verificar en el archivo server.js que este el puerto correcto 
 ejemplo 'COM3' o 'COM4'
 
